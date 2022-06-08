@@ -180,7 +180,7 @@ a:hover {
     font-size: 1.25em;
     width: 90%;
     margin: auto;
-    margin-top: 25em;
+    margin-top: 12em;
     box-shadow: none;
   }
 
@@ -189,7 +189,7 @@ a:hover {
     margin: 0;
     margin: auto;
     box-shadow: none;
-    margin-top: 25em;
+    margin-top: 10em;
   }
 
   .portfolio-desc {
@@ -223,9 +223,6 @@ a:hover {
   .first-block,
   .second-block,
   .third-block {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: auto;
   }
 }

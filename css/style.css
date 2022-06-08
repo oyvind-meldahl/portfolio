@@ -219,6 +219,15 @@ a:hover {
     display: flex;
     gap: 2em;
   }
+
+  .first-block,
+  .second-block,
+  .third-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
 }
 
 @media (min-width: 1000px) {

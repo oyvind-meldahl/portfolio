@@ -180,12 +180,16 @@ a:hover {
     font-size: 1.25em;
     width: 90%;
     margin: auto;
+    margin-top: 20em;
+    box-shadow: none;
   }
 
   .portfolio-card {
     width: 90%;
     margin: 0;
     margin: auto;
+    box-shadow: none;
+    margin-top: 10em;
   }
 
   .portfolio-desc {

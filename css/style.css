@@ -229,6 +229,10 @@ a:hover {
   footer {
     margin-top: 5em;
   }
+
+  a:hover {
+    text-decoration: none;
+  }
 }
 
 @media (min-width: 1000px) {

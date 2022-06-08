@@ -1,0 +1,224 @@
+body {
+  margin: 0;
+  background-color: #bac6c7;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 1920px;
+  font-family: "Anton", sans-serif;
+  background-color: #bac6c7;
+}
+
+.logo {
+  font-size: 2em;
+  padding-left: 5%;
+}
+
+.navigation {
+  display: flex;
+  gap: 1em;
+  font-size: 2em;
+  padding-right: 5%;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+  margin: auto;
+  width: 100%;
+  max-width: 1400px;
+}
+
+.top-container-text {
+  width: 50%;
+  border: solid black;
+  margin-left: 3em;
+  background-color: #34434d;
+  box-shadow: 15px 15px 0px black;
+  padding: 0em 0em;
+  color: white;
+  font-size: 1.5em;
+}
+
+.top-container-inner {
+  padding: 2em;
+}
+
+.top-container-inner a {
+  color: white;
+}
+
+.top-container-image {
+  width: 50%;
+  display: flex;
+  margin-right: 3em;
+  border: solid black;
+  box-shadow: 15px 15px 0px black;
+}
+
+.splash-image {
+  max-height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.contact {
+  width: 50vw;
+  background-color: #34434d;
+  color: white;
+  border: solid black;
+  box-shadow: 15px 15px 0px black;
+}
+
+.contact-box {
+  display: flex;
+  height: 25vh;
+  padding: 2em;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  font-size: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-decoration-thickness: 0.5em;
+}
+
+.first-block,
+.second-block,
+.third-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.portfolio-card {
+  margin: 0 2em;
+  height: 50vh;
+  width: 60vw;
+  border: solid black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  box-shadow: 15px 15px 0px black;
+  max-width: 1400px;
+}
+
+.portfolio-desc {
+  width: 60vw;
+  background-color: #34434d;
+  margin: 0 2em;
+  border: solid black;
+  border-top: 0;
+  box-shadow: 15px 15px 0px black;
+  max-width: 1400px;
+}
+
+.portfolio-desc-text {
+  padding: 1em 1em;
+  color: white;
+  font-size: 1.25em;
+}
+
+.portfolio-desc-text a {
+  color: white;
+}
+
+.prev:hover,
+.prev-mobile:hover,
+.next:hover {
+  color: red;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+@media (max-width: 1000px) {
+  nav {
+    flex-direction: column;
+    margin-top: 3em;
+    position: absolute;
+    top: 0;
+  }
+
+  .logo,
+  .navigation {
+    padding: 0;
+  }
+
+  .top-container-image {
+    display: none;
+  }
+
+  .top-container-text {
+    font-size: 1.25em;
+    width: 90%;
+    margin: auto;
+  }
+
+  .portfolio-card {
+    width: 90%;
+    margin: 0;
+    margin: auto;
+  }
+
+  .portfolio-desc {
+    width: 90%;
+    margin: 0;
+    margin: auto;
+  }
+
+  .second-block {
+    flex-direction: column;
+  }
+
+  .prev {
+    display: none;
+  }
+
+  .next,
+  .prev-mobile,
+  .spacer {
+    padding-top: 2em;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+
+  .card-nav-container {
+    display: flex;
+    gap: 2em;
+  }
+}
+
+@media (min-width: 1000px) {
+  .prev-mobile,
+  .spacer {
+    display: none;
+  }
+}

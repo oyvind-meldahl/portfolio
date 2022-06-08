@@ -161,10 +161,10 @@ a:hover {
 
 @media (max-width: 1000px) {
   nav {
-    flex-direction: column;
     margin-top: 3em;
     position: absolute;
     top: 0;
+    flex-direction: column;
   }
 
   .logo,
@@ -180,9 +180,9 @@ a:hover {
     font-size: 1.25em;
     width: 90%;
     margin: auto;
-    margin-top: 12em;
     box-shadow: none;
-    margin-bottom: 5em;
+    margin-top: 10em;
+    margin-bottom: 10em;
   }
 
   .portfolio-card {
@@ -210,9 +210,9 @@ a:hover {
   .next,
   .prev-mobile,
   .spacer {
-    padding-top: 1em;
     font-weight: bold;
     font-size: 1.5em;
+    margin-top: 2em;
   }
 
   .card-nav-container {
@@ -226,12 +226,8 @@ a:hover {
     height: auto;
   }
 
-  .space-below {
-    margin-bottom: 5em;
-  }
-
-  .space-above {
-    margin-top: -5em;
+  footer {
+    margin-top: 5em;
   }
 }
 

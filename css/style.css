@@ -17,7 +17,12 @@ nav {
   width: 100%;
   max-width: 1920px;
   font-family: "Anton", sans-serif;
-  background-color: #bac6c7;
+  background-color: #34434d;
+  color: white;
+}
+
+nav a {
+  color: white;
 }
 
 .logo {
@@ -161,7 +166,7 @@ a:hover {
 
 @media (max-width: 1000px) {
   nav {
-    margin-top: 3em;
+    padding: 1em 0em;
     position: absolute;
     top: 0;
     flex-direction: column;
@@ -172,8 +177,17 @@ a:hover {
     padding: 0;
   }
 
+  .top-container {
+    flex-direction: column-reverse;
+  }
+
   .top-container-image {
-    display: none;
+    box-shadow: none;
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    margin-top: 15em;
+    margin-bottom: -5em;
   }
 
   .top-container-text {
@@ -181,7 +195,6 @@ a:hover {
     width: 90%;
     margin: auto;
     box-shadow: none;
-    margin-top: 10em;
     margin-bottom: 10em;
   }
 
